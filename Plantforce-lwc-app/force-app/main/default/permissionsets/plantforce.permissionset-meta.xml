@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <applicationVisibilities>
+        <application>Plantforce</application>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <tabSettings>
+        <tab>plantforceDashboard</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>plantforce</label>
+</PermissionSet>

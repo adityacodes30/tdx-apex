@@ -1,0 +1,23 @@
+<template>
+    <lightning-card title="Plantforce Dashboard" icon-name="custom:custom14">
+        <div class="slds-m-around_medium">
+            <!-- Logo Placeholder -->
+            <div class="slds-align_absolute-center slds-m-bottom_medium">
+                <img src={logoUrl} alt="Plantforce Logo" style="max-height: 50px;"/>
+            </div>
+
+            <!-- Charts Section -->
+            <div class="slds-grid slds-wrap slds-gutters">
+                <!-- Crisis Line Chart -->
+                <div class="slds-col slds-size_1-of-1 slds-medium-size_1-of-2 slds-large-size_1-of-2 slds-p-around_medium">
+                    <canvas class="crisisLineChart" lwc:dom="manual"></canvas>
+                </div>
+
+                <!-- Machine Material Usage Bar Chart -->
+                <div class="slds-col slds-size_1-of-1 slds-medium-size_1-of-2 slds-large-size_1-of-2 slds-p-around_medium">
+                    <canvas class="machineUsageChart" lwc:dom="manual"></canvas>
+                </div>
+            </div>
+        </div>
+    </lightning-card>
+</template>
